@@ -7,9 +7,20 @@ This code book summarizes the resulting data fields in tidy_data.txt.
 * activity Name: read subheading below.
 * subject: identifier for each of the 30 volunteers that participated on the experiment.
 
+## Activities
+
+Activities performed by each volunteer that  participated in the experiment. The activities performed were:
+
+* WALKING (Original Data Set ID = 1).
+* WALKING_UPSTAIRS (Original Data Set ID = 2).
+* WALKING_DOWNSTAIRS (Original Data Set ID = 3).
+* SITTING (Original Data Set ID = 4).
+* STANDING (Original Data Set ID = 5).
+* LAYING (Original Data Set ID = 6).
+
 ## Measurements.
 
-The file tidy_data.txt contains in each row the average of each of the following variables for each activity and each subject:
+The file tidy_data.txt contains in each row the average of each of the following variables for each activity performed by each subject:
 
 * Frequency_BodyAcc_Mean_X
 * Frequency_BodyAcc_Mean_Y
@@ -76,14 +87,3 @@ The file tidy_data.txt contains in each row the average of each of the following
 * Time_GravityAcc_StandardDeviation_Z
 * Time_GravityAccMag_Mean
 * Time_GravityAccMag_StandardDeviation
-
-## Activities
-
-Activities performed by each volunteer that  participated in the experiment. The activities performed were:
-
-* WALKING (Original Data Set ID = 1).
-* WALKING_UPSTAIRS (Original Data Set ID = 2).
-* WALKING_DOWNSTAIRS (Original Data Set ID = 3).
-* SITTING (Original Data Set ID = 4).
-* STANDING (Original Data Set ID = 5).
-* LAYING (Original Data Set ID = 6).
