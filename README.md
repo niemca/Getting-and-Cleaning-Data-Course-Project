@@ -13,4 +13,4 @@ The R script, run_analysis.R, does the following:
 * Assigns activities labels to each row, in order to have descriptive names for each activity in the data set.
 * Creates an independent tidy data set with the average of each variable for each activity and each subject.
 
-The end result is shown in the file tidy_data.txt.
+The final result is shown in the file tidy_data.txt.
