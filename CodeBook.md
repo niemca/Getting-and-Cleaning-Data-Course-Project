@@ -9,7 +9,7 @@ This code book summarizes the resulting data fields in tidy_data.txt.
 
 ## Activities
 
-Activities performed by each volunteer that  participated in the experiment. The activities performed were:
+Activities performed by each volunteer that participated in the experiment. The activities performed were:
 
 * WALKING (Original Data Set ID = 1).
 * WALKING_UPSTAIRS (Original Data Set ID = 2).
@@ -90,7 +90,7 @@ The file tidy_data.txt contains in each row the average of each of the following
 
 ## Comments on the measurements and the original data set.
 
-The measurements from the previous section were constructed in the following way.
+The measurements from the previous section were constructed in the following way, according to the original data set instructions.
 
 The original measurements come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -121,8 +121,8 @@ These signals were used to estimate variables of the feature vector for each pat
 where:
 
 * '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-* The 't' at the start indicates 'time domain signals'.
-* The 'f' at the start indicates 'frequency domain signals'.
+* As previosuly stated, the 't' at the start indicates 'time domain signals'.
+* As previosuly stated, the 'f' at the start indicates 'frequency domain signals'.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
@@ -132,6 +132,6 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-Several statistics and variables were calculated from this measurements. As previously stated, only the mean and standard deviation were kept.
+Several statistics and variables were calculated from this measurements. As stated on the Readme.md file attached on this Repository, only the mean and standard deviation variables were kept.
 
-Finally, each of were averaged
+Finally, all these mean and standard deviation variables from the original data set were averaged for each activity performed by each subject, in order to get the required tidy data set.
